@@ -9,6 +9,7 @@ export default function Home() {
     setSelected((s) => s.includes(opt) ? s.filter(i => i !== opt) : [...s, opt])
   }
 
+  
   return (
     <>
       <main className="m-2">
